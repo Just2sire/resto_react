@@ -1,0 +1,173 @@
+{
+    "about": [
+        {
+            "img": "image/serv-1.png",
+            "msg": "fast delivery"
+        },
+        {
+            "img": "image/serv-2.png",
+            "msg": "fresh food"
+        },
+        {
+            "img": "image/serv-3.png",
+            "msg": "best quality"
+        },
+        {
+            "img": "image/serv-4.png",
+            "msg": "24/7 support"
+        }
+    ],
+    "offres" : {
+        "specialOffre": "double cheese",
+        "food1": "burger",
+        "food2": "with cococola and fries",
+        "otherOffre": [
+            {
+                "nom": "special offer",
+                "reduct": "upto 50% off",
+                "img": "image/banner-1.png"
+            },
+            {
+                "nom": "special offer",
+                "reduct": "upto 25% extra",
+                "img": "image/banner-2.png"
+            },
+            {
+                "nom": "limited offer",
+                "reduct": "100% cashback",
+                "img": "image/banner-3.png"
+            }
+        ]
+    },
+    "orders": [
+
+    ],
+    "foods": [
+        {
+            "name": "delicious food",
+            "price": "5000",
+            "img": "image/menu-1.png",
+            "link": "/"
+        },
+        {
+            "name": "delicious food",
+            "price": "5000",
+            "img": "image/menu-2.png",
+            "link": "/"
+        },
+        {
+            "name": "delicious food",
+            "price": "5000",
+            "img": "image/menu-3.png",
+            "link": "/"
+        },
+        {
+            "name": "delicious food",
+            "price": "5000",
+            "img": "image/menu-4.png",
+            "link": "/"
+        },
+        {
+            "name": "delicious food",
+            "price": "5000",
+            "img": "image/menu-5.png",
+            "link": "/"
+        },
+        {
+            "name": "delicious food",
+            "price": "5000",
+            "img": "image/menu-6.png",
+            "link": "/"
+        }
+    ],
+    "populars": [
+        {
+            "link": "/",
+            "img": "image/food-1.png",
+            "name": "delicious food",
+            "price": 5000,
+            "promotionPrice": 3500
+        },
+        {
+            "link": "/",
+            "img": "image/food-2.png",
+            "name": "delicious food",
+            "price": 5000,
+            "promotionPrice": 3500
+        },
+        {
+            "link": "/",
+            "img": "image/food-3.png",
+            "name": "delicious food",
+            "price": 5000,
+            "promotionPrice": 3500
+        },
+        {
+            "link": "/",
+            "img": "image/food-4.png",
+            "name": "delicious food",
+            "price": 5000,
+            "promotionPrice": 3500
+        },
+        {
+            "link": "/",
+            "img": "image/food-5.png",
+            "name": "delicious food",
+            "price": 5000,
+            "promotionPrice": 3500
+        },
+        {
+            "link": "/",
+            "img": "image/food-6.png",
+            "name": "delicious food",
+            "price": 5000,
+            "promotionPrice": 3500
+        },
+        {
+            "link": "/",
+            "img": "image/food-7.png",
+            "name": "delicious food",
+            "price": 5000,
+            "promotionPrice": 3500
+        },
+        {
+            "link": "/",
+            "img": "image/food-8.png",
+            "name": "delicious food",
+            "price": 5000,
+            "promotionPrice": 3500
+        }
+    ],
+    "panier": [
+        {
+            "name": "Delicious Food",
+            "price": 5000,
+            "img": "image/menu-1.png",
+            "quantite": 0
+        },
+        {
+            "name": "Delicious Food",
+            "price": 5000,
+            "img": "image/menu-2.png",
+            "quantite": 0
+        },
+        {
+            "name": "Delicious Food",
+            "price": 5000,
+            "img": "image/menu-3.png",
+            "quantite": 0
+        },
+        {
+            "name": "Delicious Food",
+            "price": 5000,
+            "img": "image/menu-4.png",
+            "quantite": 0
+        },
+        {
+            "name": "Delicious Food",
+            "price": 5000,
+            "img": "image/menu-5.png",
+            "quantite": 0
+        }
+    ]
+}
