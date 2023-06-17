@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est lié à resto_backend qui est le backend Node.js de l'application (https://github.com/Just2sire/resto_backend)
 
 ## Available Scripts
 
