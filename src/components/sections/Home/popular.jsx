@@ -28,7 +28,7 @@ const Popular = () => {
 
                 {
                     menu && 
-                    menu.map(({name, price, img, link, promotionalPrice}, id) => (
+                    menu.map(({_id, name, price, img, link, promotionalPrice}, id) => (
                         <div className="box" key={id}>
                             <a href={link} className="fas fa-heart"> </a>
                             <div className="image">
@@ -44,7 +44,7 @@ const Popular = () => {
                                     <i className="fas fa-star-half-alt"></i>
                                 </div>
                                 <div className="price">{promotionalPrice ? <>{promotionalPrice} <span>{price} XOF</span></>  : price+' XOF'} </div>
-                                <button onClick={() => {dispacth(addCart({name, price, img, promotionalPrice}))}} className="btn">Ajouter au panier</button>
+                                <button onClick={() => {dispacth(addCart({_id, name, price, img, promotionalPrice}))}} className="btn">Ajouter au panier</button>
                             </div>
                         </div>
                     ))

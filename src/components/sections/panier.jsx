@@ -72,12 +72,12 @@ const Cart = () => {
                   panier.map(({_id, price, img, name, quantite}, id) => (
                     
                     <div className="box" key={id} >
-                        <i className="fas fa-times" onClick={() => dispatch(deleteCart(id))}></i>
+                        <i className="fas fa-times" onClick={() => dispatch(deleteCart(_id))}></i>
                         <img src={img} alt="" />
                         <div className="content">
                             <h3>{name}</h3>
                             <span> Quantité : </span>
-                            <input type="number" name="" value={quantite} min={1} id="" onChange={(e) => { dispatch(updateCart({id, quantite: verification(e.target.value)})) } } />
+                            <input type="number" name="" value={quantite} min={1} id="" onChange={(e) => { dispatch(updateCart({_id, quantite: verification(e.target.value)})) } } />
                             <br/>
                             <span> Prix : </span>
                             <span className="price">{price} XOF </span>

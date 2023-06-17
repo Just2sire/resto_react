@@ -113,6 +113,7 @@ const cartSlice = createSlice({
         const data = action.payload;
         const price = data.promotionalPrice ? data.promotionalPrice : data.price;
         const newToCart = {
+          _id: data._id,
           name: data.name,
           price,
           img: data.img,
@@ -125,24 +126,24 @@ const cartSlice = createSlice({
         });
       },
       updateCart: (state, action) => {
-        const plat = state.find((t) => t.id === action.payload.id);
-        if (plat) {
-          plat.quantite = action.payload.quantite;
-          toast.success("Produit mis à jour avec succès", {
+        let plat = state.find((t) => t._id === action.payload._id);
+        plat.quantite = action.payload.quantite;
+        toast.success("Produit mis à jour avec succès", {
             autoClose: 700,
             theme: 'light',
-            pauseOnHover: false,
-          });
-        }
+            pauseOnHover: false
+        });
         return state;
       },
       deleteCart: (state, action) => {
         state = state.filter((item) => item._id !== action.payload);
+        console.log(state);
         toast.success("Produit supprimé avec succès", {
           autoClose: 700,
           theme: 'light',
-          pauseOnHover: false,
+          pauseOnHover: false
         });
+        return state;
         // state.data = updatedData;
       },
     },
